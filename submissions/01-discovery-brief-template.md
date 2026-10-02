@@ -1,22 +1,27 @@
 # Discovery Brief Template
 
-Use this file to create your one-page discovery brief for Legacy-Trust Bank.
+One-page discovery brief for Legacy-Trust Bank.
 
 ## 1. Problem summary
-
-Write 80-120 words answering:
-- What is happening now?
-- Why is it failing at scale?
-- Why does it matter financially and operationally?
  
 
-S: Legacy Trust Bank has been growing gradually over the years in personal loans, credit cards, and auto finance, but its collections tools never evolved as one joined-up system. Teams adapted around the gaps by building spreadsheet trackers, email templates, and local workarounds on top of the legacy collections database.
+S: Legacy Trust Bank has grown across personal loans, credit cards, and auto finance, but its collections tools never evolved as one joined-up system. Teams adapted around system gaps by building local spreadsheet trackers, email templates, and manual workarounds on top of the legacy collections database.
 
-C: Despite Legacy Trust Bank spending years modernising their customer-facing banking journeys, more than 50 representatives are still working across spreadsheets, email trails, and a 20-year-old collections database to manage over 100,000 delinquent accounts. This is resulting in missed follow-ups, duplicated activity, and inconsistent status updates which are now directly affecting recoveries, operational capacity, and leadership confidence.
 
-These workarounds are failing at scale because they rely heavily on individual memory, manual reconciliation, and duplicated effort, so as delinquent account volumes increased, those workarounds stopped scaling.
+C: Despite spending years modernising customer-facing banking journeys, more than 50 representatives are still working across spreadsheets, email trails, and a 20-year-old collections database to manage over 100,000 delinquent accounts. This results in missed follow-ups, duplicated activity, and inconsistent status updates that directly affect recoveries, operational capacity, and leadership confidence.
 
-This matters financially and operationally because it means that Legacy Trust is wasting time repeating processes that have already been done, therefore delaying the customers from receiving their services. This could result in customers moving to a different back which would be detrimental to Legacy Trust financially as they rely on customers using their services to remain operational.
+**Impact Breakdown:**
+
+| Local Workarounds/ Friction | Operational & Business Consequence |
+
+|---|---|
+
+Manual Spreadsheet Trackers | Lack central visibility; reliance on individual memory and manual reconciliation causes account tracking to fail as volumes increase.
+
+Email Trail Handoffs | Shift changes result in untracked cases, creating missed customer follow-ups and duplicated outreach.
+
+Disconnected Systems | Operations spend substantial capacity repeating administrative actions already completed, delaying customer service and risking customer churn to competitor banks.
+
 
 Q: What is the main factor causing all of these issues and what can be done to keep Legacy Trust Bank operating smoothly?
 
@@ -46,9 +51,13 @@ Starter examples:
 - Where do spreadsheets and manual handoffs create duplicate work?
 - Which baseline metrics best show operational waste and revenue leakage?
 
-- Which steps depend on which system?
+- How is the data split between the spreadsheets, emails and collections database?
 - Which specific stages in the debt resolution journey cause the highest customer drop-off or prompt repetitive contact calls to representatives?
 - What operational changes are needed to ensure team leaders and representatives trust that the portal will reduce, rather than re-route, their workload?
+- What is the actual cause for customers unnecessarily being contacted multiple times?
+- What part of the process is the most time consuming?
+- Which part of the process causes the most confusion?
+
 
 ## 4. Traceability starter
 
@@ -73,4 +82,4 @@ End with a concise problem statement in your own words.
 
 > Tip: if your statement still sounds like 'the bank needs digital transformation,' it is too broad.
 
-Legacy Trust Bank’s debt recovery relies on a 20-year-old database and a 200-sheet Excel workbook to manage over 100,000 delinquent accounts across 50+ representatives. Because routine early-stage cases (~60% of total volume) and complex hardship cases are mixed in the same manual queues, staff waste up to 1.5 hours daily cross-checking spreadsheets, while at least 20% of follow-ups are lost between shift hand-offs. This operational breakdown causes £500,000 in direct annual losses from spreadsheet workarounds, a 15% drop in recovery revenue, and severe data degradation. To resolve this, the bank requires an evidence-backed discovery package for a Phase 1 Self-Service Portal that resolves straightforward cases, establishes clear hand-off boundaries for complex cases, and achieves a defensible 12-month payback period.
+Legacy Trust Bank’s debt recovery relies on a 20-year-old database and a 200-sheet Excel workbook to manage over 100,000 delinquent accounts across 50+ representatives. Because routine early-stage cases (~60% of total volume) and complex hardship cases are mixed in the same manual queues, staff spend up to 1.5 hours daily cross-checking spreadsheets, while at least 20% of follow-ups are lost between shift hand-offs. This operational breakdown causes £500,000 in direct annual losses from spreadsheet workarounds, a 15% drop in recovery revenue, and severe data degradation.
